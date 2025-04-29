@@ -25,4 +25,9 @@ public class BookService {
     public List<Book> getAllBooks() {
         return books;
     }
+
+    public Book save(Book book) {
+        books.add(book);
+        return book;
+    }
 }
